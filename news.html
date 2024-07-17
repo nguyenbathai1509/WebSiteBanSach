@@ -1,0 +1,1320 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Tin Tức Báo Chí</title>
+      <link
+         rel="stylesheet"
+         href="assets/bootstrap-5.0.2-dist/css_bootstrap/bootstrap.min.css"
+      />
+      <link rel="stylesheet" href="assets/css/header.css" />
+      <link rel="stylesheet" href="assets/css/footer.css" />
+
+      <link rel="stylesheet" href="./assets/css/base.css" />
+      <link rel="stylesheet" href="./assets/css/news.css" />
+      <link rel="stylesheet" href="./assets/css/script.js" />
+      <link
+         rel="icon"
+         href="//bizweb.dktcdn.net/100/465/223/themes/877050/assets/favicon.png?1699520052859"
+         type="img/x-icon"
+      />
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+      <link
+         href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;700&family=Roboto:ital,wght@0,300;1,300;1,500;1,700&display=swap"
+         rel="stylesheet"
+      />
+      <link
+         rel="stylesheet"
+         href="./assets/icon/fontawesome-free-6.4.2-web/fontawesome-free-6.4.2-web/css/all.min.css"
+      />
+   </head>
+   <body>
+      <div class="skybook">
+         <div
+            class="offcanvas offcanvas-start left-sidebar"
+            data-bs-scroll="true"
+            tabindex="-1"
+            id="leftSidebar"
+            aria-labelledby="offcanvasWithBothOptionsLabel"
+         >
+            <div class="offcanvas-body p-0">
+               <div class="sidebar-container">
+                  <div class="login">
+                     <a href="./login.html" class="fw-bold">Đăng nhập</a>
+                     &nbsp;/
+                     <a href="./signup.html" class="fw-bold">Đăng ký</a>
+                  </div>
+                  <div class="menu">
+                     <ul class="menu-container">
+                        <li class="menu-item menu-item-lv0">
+                           <div class="menu-item-container">
+                              <a href="./home.html">Trang chủ</a>
+                           </div>
+                        </li>
+                        <li class="menu-item menu-item-lv0">
+                           <div class="menu-item-container">
+                              <a href="#">Tủ sách thương hiệu</a>
+                              <i
+                                 class="collapse-menu-item fa fa-plus fa-angle-down fa-angle-right w-1"
+                              ></i>
+                           </div>
+                           <ul class="menu-container-lv1">
+                              <li class="menu-item menu-item-lv1">
+                                 <a href="./skybooks.html">Skybooks</a>
+                              </li>
+                              <li class="menu-item menu-item-lv1">
+                                 <a href="./skynovel.html">Skynovel</a>
+                              </li>
+                              <li class="menu-item menu-item-lv1">
+                                 <a href="./skycomics.html">Skycomics</a>
+                              </li>
+                              <li class="menu-item menu-item-lv1">
+                                 <a href="./skymommy.html">Skymommy</a>
+                              </li>
+                              <li class="menu-item menu-item-lv1">
+                                 <a href="#">Sky Special</a>
+                              </li>
+                              <li class="menu-item menu-item-lv1">
+                                 <a href="#">Tủ sách chữa lành</a>
+                              </li>
+                              <li class="menu-item menu-item-lv1">
+                                 <a href="#">Tủ sách quý cô</a>
+                              </li>
+                              <li class="menu-item menu-item-lv1">
+                                 <a href="#">Sống khác</a>
+                              </li>
+                              <li class="menu-item menu-item-lv1">
+                                 <a href="#">Deepbooks</a>
+                              </li>
+                              <li class="menu-item menu-item-lv1">
+                                 <a href="#">Trạm hướng nghiệp</a>
+                              </li>
+                              <li class="menu-item menu-item-lv1">
+                                 <a href="#">I love cookbook</a>
+                              </li>
+                              <li class="menu-item menu-item-lv1">
+                                 <a href="#">Glow Books</a>
+                              </li>
+                           </ul>
+                        </li>
+
+                        <li class="menu-item menu-item-lv0">
+                           <div class="menu-item-container">
+                              <a href="#">Tin tức & Sự kiện</a>
+                              <i
+                                 class="collapse-menu-item fa fa-plus fa-angle-down fa-angle-right w-1"
+                              ></i>
+                           </div>
+                           <ul class="menu-container-lv1">
+                              <li class="menu-item menu-item-lv1">
+                                 <a href="./news.html">Tin tức báo chí</a>
+                              </li>
+                              <li class="menu-item menu-item-lv1">
+                                 <a href="#">Sự kiện</a>
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="menu-item menu-item-lv0">
+                           <div class="menu-item-container">
+                              <a href="">Tác giả</a>
+                           </div>
+                        </li>
+                        <li class="menu-item menu-item-lv0">
+                           <div class="menu-item-container">
+                              <a href="">Liên hệ</a>
+                           </div>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+         <header class="header">
+            <div class="grid d-none d-lg-block">
+               <nav class="header__navbar">
+                  <div class="header__navbar-contact">
+                     <ul class="header__navbar-contact-list">
+                        <li class="header__navbar-contact-list-item">
+                           <i>
+                              <img
+                                 src="//bizweb.dktcdn.net/100/465/223/themes/877050/assets/i_phone.png?1699520052859"
+                                 alt="Hotline"
+                              />
+                           </i>
+                           Hotline:
+                        </li>
+                        <li class="header__navbar-contact-list-item">
+                           <a
+                              href=""
+                              class="header__navbar-contact-list-item-link"
+                              >0867670644</a
+                           >
+                        </li>
+                     </ul>
+                  </div>
+
+                  <div class="header__navbar-three">
+                     <ul class="header__navbar-three-list">
+                        <div class="header__navbar-three-list-search">
+                           <li class="header__navbar-three-list-search-item">
+                              <a
+                                 href=""
+                                 class="header__navbar-three-list-search-item-link"
+                              >
+                                 <i class="fa-solid fa-magnifying-glass"></i>
+                                 Tìm kiếm
+                              </a>
+                              <form
+                                 action="/search"
+                                 method="get"
+                                 class="newForm"
+                                 role="search"
+                              >
+                                 <input
+                                    type="text"
+                                    name="query"
+                                    value=""
+                                    autocomplete="off"
+                                    required
+                                    placeholder="Tìm kiếm..."
+                                    class=""
+                                 />
+                                 <button type="submit" class="button_search">
+                                    <i class="fa fa-search"></i>
+                                 </button>
+                              </form>
+                           </li>
+                        </div>
+                        <div class="header__navbar-three-list-accout">
+                           <li class="header__navbar-three-list-accout-item">
+                              <a
+                                 href=""
+                                 class="header__navbar-three-list-accout-item-link"
+                              >
+                                 <i>
+                                    <img
+                                       src="//bizweb.dktcdn.net/100/465/223/themes/877050/assets/i_user.png?1699520052859"
+                                       alt="account"
+                                    />
+                                 </i>
+                                 Tài khoản
+                              </a>
+                              <div
+                                 class="header__navbar-three-list-accout-item-acc"
+                              >
+                                 <a
+                                    href="login.html"
+                                    class="header__navbar-three-list-accout-item-acc-link"
+                                    >Đăng Nhập</a
+                                 >
+                                 <a
+                                    href="signup.html"
+                                    class="header__navbar-three-list-accout-item-acc-link"
+                                    >Đăng Ký</a
+                                 >
+                              </div>
+                           </li>
+                        </div>
+                        <div class="header__navbar-three-list-cart">
+                           <li class="header__navbar-three-list-cart-item">
+                              <a
+                                 href=""
+                                 class="header__navbar-three-list-cart-item-link"
+                              >
+                                 <i>
+                                    <img
+                                       src="//bizweb.dktcdn.net/100/465/223/themes/877050/assets/i_cart.png?1699520052859"
+                                       alt="cart"
+                                    />
+                                 </i>
+                                 Giỏ hàng
+                              </a>
+                           </li>
+                        </div>
+                     </ul>
+                  </div>
+               </nav>
+            </div>
+            <div class="header-1 d-lg-none d-block">
+               <div class="container-fluid">
+                  <div class="row row-nav">
+                     <div class="col-4">
+                        <i
+                           class="fa-solid fa-bars toggle-left-sidebar"
+                           data-bs-toggle="offcanvas"
+                           data-bs-target="#leftSidebar"
+                           aria-controls="offcanvasResponsive"
+                        ></i>
+                     </div>
+                     <div class="col-4">
+                        <center>
+                           <img
+                              class="img-logo"
+                              src="https://bizweb.dktcdn.net/100/465/223/themes/877050/assets/logo_mobi.png?1703495919265"
+                              alt=""
+                           />
+                        </center>
+                     </div>
+                     <div class="col-4">
+                        <div class="header-cart">
+                           <img
+                              src="https://bizweb.dktcdn.net/100/465/223/themes/877050/assets/i_cart.png?1703495919265"
+                              alt=""
+                           />
+                           <span> Giỏ hàng </span>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row row-search mt-4">
+                     <div class="col-9 header-input">
+                        <input
+                           class="header-search"
+                           type="text"
+                           placeholder="Tìm sản phẩm bạn mong muốn..."
+                        />
+                        <i class="fa-solid fa-search search-form"></i>
+                     </div>
+                  </div>
+               </div>
+            </div>
+            <nav class="header__navbar2 d-none d-lg-block">
+               <div class="header__navbar2-six">
+                  <div class="header__navbar2-six-contact">
+                     <ul class="header__navbar2-six-contact-list flex1">
+                        <li class="header__navbar2-six-contact-list-item">
+                           <a
+                              href="home.html"
+                              class="header__navbar2-six-contact-list-item-link"
+                           >
+                              <span
+                                 class="header__navbar2-six-contact-list-item-link-text"
+                                 ><strong>Trang chủ</strong></span
+                              >
+                           </a>
+                        </li>
+                        <li class="header__navbar2-six-contact-list-item">
+                           <a
+                              href=""
+                              class="header__navbar2-six-contact-list-item-link"
+                           >
+                              <span
+                                 class="header__navbar2-six-contact-list-item-link-text"
+                                 ><strong>Tủ sách thương hiệu</strong></span
+                              >
+                              <i class="fa-solid fa-caret-down"></i>
+                           </a>
+                           <ul
+                              class="header__navbar2-six-contact-list-item-list"
+                           >
+                              <li
+                                 class="header__navbar2-six-contact-list-item-list-item"
+                              >
+                                 <a
+                                    class="header__navbar2-six-contact-list-item-list-item-link"
+                                    href="skybooks.html"
+                                    >Skybooks</a
+                                 >
+                              </li>
+                              <li
+                                 class="header__navbar2-six-contact-list-item-list-item"
+                              >
+                                 <a
+                                    class="header__navbar2-six-contact-list-item-list-item-link"
+                                    href="skynovel.html"
+                                    >Skynovel</a
+                                 >
+                              </li>
+                              <li
+                                 class="header__navbar2-six-contact-list-item-list-item"
+                              >
+                                 <a
+                                    class="header__navbar2-six-contact-list-item-list-item-link"
+                                    href="skycomics.html"
+                                    >Skycomics</a
+                                 >
+                              </li>
+                              <li
+                                 class="header__navbar2-six-contact-list-item-list-item"
+                              >
+                                 <a
+                                    class="header__navbar2-six-contact-list-item-list-item-link"
+                                    href="skymommy.html"
+                                    >Skymommy</a
+                                 >
+                              </li>
+                              <li
+                                 class="header__navbar2-six-contact-list-item-list-item"
+                              >
+                                 <a
+                                    class="header__navbar2-six-contact-list-item-list-item-link"
+                                    href="#"
+                                    >Sky Special</a
+                                 >
+                              </li>
+                              <li
+                                 class="header__navbar2-six-contact-list-item-list-item"
+                              >
+                                 <a
+                                    class="header__navbar2-six-contact-list-item-list-item-link"
+                                    href="#"
+                                    >Tủ sách chữa lành</a
+                                 >
+                              </li>
+                              <li
+                                 class="header__navbar2-six-contact-list-item-list-item"
+                              >
+                                 <a
+                                    class="header__navbar2-six-contact-list-item-list-item-link"
+                                    href="#"
+                                    >Tủ sách quý cô</a
+                                 >
+                              </li>
+                              <li
+                                 class="header__navbar2-six-contact-list-item-list-item"
+                              >
+                                 <a
+                                    class="header__navbar2-six-contact-list-item-list-item-link"
+                                    href="#"
+                                    >Sống khác</a
+                                 >
+                              </li>
+                              <li
+                                 class="header__navbar2-six-contact-list-item-list-item"
+                              >
+                                 <a
+                                    class="header__navbar2-six-contact-list-item-list-item-link"
+                                    href="#"
+                                    >Deepbooks</a
+                                 >
+                              </li>
+                              <li
+                                 class="header__navbar2-six-contact-list-item-list-item"
+                              >
+                                 <a
+                                    class="header__navbar2-six-contact-list-item-list-item-link"
+                                    href="#"
+                                    >Trạm hướng nghiệp</a
+                                 >
+                              </li>
+                              <li
+                                 class="header__navbar2-six-contact-list-item-list-item"
+                              >
+                                 <a
+                                    class="header__navbar2-six-contact-list-item-list-item-link"
+                                    href="#"
+                                    >I love cookbook</a
+                                 >
+                              </li>
+                              <li
+                                 class="header__navbar2-six-contact-list-item-list-item"
+                              >
+                                 <a
+                                    class="header__navbar2-six-contact-list-item-list-item-link"
+                                    href="#"
+                                    >Glow Books</a
+                                 >
+                              </li>
+                           </ul>
+                        </li>
+                        <li class="header__navbar2-six-contact-list-item">
+                           <a
+                              href=""
+                              class="header__navbar2-six-contact-list-item-link"
+                           >
+                              <span
+                                 class="header__navbar2-six-contact-list-item-link-text"
+                                 ><strong>Tin tức & Sự kiện</strong></span
+                              >
+                              <i class="fa-solid fa-caret-down"></i>
+                           </a>
+                           <ul
+                              class="header__navbar2-six-contact-list-item-list"
+                           >
+                              <li
+                                 class="header__navbar2-six-contact-list-item-list-item"
+                              >
+                                 <a
+                                    class="header__navbar2-six-contact-list-item-list-item-link"
+                                    href="news.html"
+                                    >Tin tức báo chí</a
+                                 >
+                              </li>
+                              <li
+                                 class="header__navbar2-six-contact-list-item-list-item"
+                              >
+                                 <a
+                                    class="header__navbar2-six-contact-list-item-list-item-link"
+                                    href="#"
+                                    >Sự kiện</a
+                                 >
+                              </li>
+                           </ul>
+                        </li>
+                     </ul>
+                     <img
+                        class="header__navbar2-six-contact-list-item-img flex2"
+                        src="//bizweb.dktcdn.net/100/465/223/themes/877050/assets/logo.png?1700471616039"
+                        alt="Skybook"
+                     />
+                     <ul
+                        class="header__navbar2-six-contact-list header__navbar2-six-contact-list-2 flex3"
+                     >
+                        <li class="header__navbar2-six-contact-list-item">
+                           <a
+                              href=""
+                              class="header__navbar2-six-contact-list-item-link"
+                           >
+                              <span
+                                 class="header__navbar2-six-contact-list-item-link-text"
+                                 ><strong>Tác giả</strong></span
+                              >
+                           </a>
+                        </li>
+                        <li class="header__navbar2-six-contact-list-item">
+                           <a
+                              href=""
+                              class="header__navbar2-six-contact-list-item-link"
+                           >
+                              <span class=""><strong>Liên hệ</strong></span>
+                           </a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+            <div class="slider-container">
+               <div class="slider">
+                  <img src="./assets/img/slide/slider_1.webp" alt="Image 1" />
+                  <img
+                     src="./assets/img/slide/slider_2 (1).webp"
+                     alt="Image 2"
+                  />
+                  <img src="./assets/img/slide/slider_3.webp" alt="Image 3" />
+               </div>
+            </div>
+            <script src="./assets/css/script.js"></script>
+         </header>
+
+         <div class="form_header-contact">
+            <section class="form_header-contact-section">
+               <span class="form_header-contact-section-border"></span>
+               <div class="form_header-contact-section-container">
+                  <div class="form_header-contact-section-container-rows">
+                     <div
+                        class="form_header-contact-section-container-rows-a-left"
+                     >
+                        <ul
+                           class="form_header-contact-section-container-rows-a-left-list"
+                        >
+                           <li
+                              class="form_header-contact-section-container-rows-a-left-list-home"
+                           >
+                              <a
+                                 class="form_header-contact-section-container-rows-a-left-list-home-link"
+                                 href="home.html"
+                                 ><span>Trang chủ</span></a
+                              >
+                              <span
+                                 class="form_header-contact-section-container-rows-a-left-list-mr_lr"
+                                 >&nbsp;/&nbsp;</span
+                              >
+                           </li>
+                           <li
+                              class="form_header-contact-section-container-rows-a-left-list-home form_header-contact-section-container-rows-a-left-list-home1"
+                           >
+                              <span>Tin Tức Báo Chí</span>
+                           </li>
+                        </ul>
+                     </div>
+                  </div>
+               </div>
+            </section>
+         </div>
+
+         <div class="news_contact">
+            <div class="container_news">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-8 col-md-12">
+                        <div class="row">
+                           <div class="col-lg-6 col-md-6 col-12 m-bottom-4">
+                              <a
+                                 href="#"
+                                 class="container_news-content-right-list-item-link"
+                              >
+                                 <div
+                                    class="container_news-content-right-list-item"
+                                 >
+                                    <img
+                                       src="https://bizweb.dktcdn.net/100/465/223/articles/410907557-321116830822996-1556162244636689368-n.jpg?v=1703040326097"
+                                       alt=""
+                                       class="container_news-content-right-list-item-img"
+                                    />
+                                    <h3
+                                       class="container_news-content-right-list-item-text"
+                                    >
+                                       Tuổi Trẻ Thăng Trầm Mà Đáng Nhớ
+                                    </h3>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="col-lg-6 col-md-6 col-12 m-bottom-4">
+                              <a
+                                 href="#"
+                                 class="container_news-content-right-list-item-link"
+                              >
+                                 <div
+                                    class="container_news-content-right-list-item"
+                                 >
+                                    <img
+                                       src="https://bizweb.dktcdn.net/100/465/223/articles/410939811-321116867489659-1728829218222377720-n.jpg?v=1703039822210"
+                                       alt=""
+                                       class="container_news-content-right-list-item-img"
+                                    />
+                                    <h3
+                                       class="container_news-content-right-list-item-text"
+                                    >
+                                       Giới Nghệ Thuật Có Nhiều Cãm Dỗ
+                                    </h3>
+                                 </div>
+                              </a>
+                           </div>
+                           <div class="col-lg-6">
+                              <div
+                                 class="container_news-content-right-list2-item1"
+                              >
+                                 <img
+                                    src="//bizweb.dktcdn.net/thumb/large/100/465/223/articles/405293985-404869128529741-7923591511687030842-n.jpg?v=1701933387400"
+                                    alt=""
+                                    class="container_news-content-right-list2-item1-img"
+                                 />
+                                 <div
+                                    class="container_news-content-right-list2-item1-text"
+                                 >
+                                    <h3
+                                       class="container_news-content-right-list2-item1-text-content"
+                                    >
+                                       <a
+                                          href="#"
+                                          class="container_news-content-right-list2-item1-text-content-link"
+                                          >Tựa truyện tranh đầu tiên của
+                                          Skycomics được xuất bản tại nước
+                                          ngoài</a
+                                       >
+                                       <p
+                                          class="container_news-content-right-list2-item1-text-content1"
+                                       >
+                                          "𝗦𝗶𝗱𝗲𝘄𝗼𝗿𝗹𝗱 - 𝗧𝗵ế 𝗴𝗶ớ𝗶 𝗯ê𝗻 𝗰ạ𝗻𝗵" của
+                                          tác giả...
+                                       </p>
+                                    </h3>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div
+                                 class="container_news-content-right-list2-item1"
+                              >
+                                 <img
+                                    src="//bizweb.dktcdn.net/thumb/large/100/465/223/articles/tieu-thuyet-cua-ca-si-jun-881690366000-1.jpg?v=1690432325643"
+                                    alt=""
+                                    class="container_news-content-right-list2-item1-img"
+                                 />
+                                 <div
+                                    class="container_news-content-right-list2-item1-text"
+                                 >
+                                    <h3
+                                       class="container_news-content-right-list2-item1-text-content"
+                                    >
+                                       <a
+                                          href="#"
+                                          class="container_news-content-right-list2-item1-text-content-link"
+                                          >Tiểu thuyết của ca sĩ Jun Phạm bán
+                                          sạch 5.000 bản trong 1 ngày</a
+                                       >
+                                    </h3>
+                                    <p
+                                       class="container_news-content-right-list2-item1-text-content1"
+                                    >
+                                       PNO - Tiểu thuyết "Xứ sở miên man" được
+                                       phát hành chính thức h...
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div
+                                 class="container_news-content-right-list2-item1"
+                              >
+                                 <img
+                                    src="//bizweb.dktcdn.net/thumb/large/100/465/223/articles/354173357-821754962653243-7356876224234397551-n.jpg?v=1690168596417"
+                                    alt=""
+                                    class="container_news-content-right-list2-item1-img"
+                                 />
+                                 <div
+                                    class="container_news-content-right-list2-item1-text"
+                                 >
+                                    <h3
+                                       class="container_news-content-right-list2-item1-text-content"
+                                    >
+                                       <a
+                                          href="#"
+                                          class="container_news-content-right-list2-item1-text-content-link"
+                                          >Jun Phạm ra mắt sách tưởng nhớ bố</a
+                                       >
+                                    </h3>
+                                    <p
+                                       class="container_news-content-right-list2-item1-text-content1"
+                                    >
+                                       Jun Phạm nói nhờ sống gần bố năm tháng
+                                       cuối đời của ông, ca sĩ...
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div
+                                 class="container_news-content-right-list2-item1"
+                              >
+                                 <img
+                                    src="//bizweb.dktcdn.net/thumb/large/100/465/223/articles/359860282-842830113879061-7926490445161176393-n.jpg?v=1689564764867"
+                                    alt=""
+                                    class="container_news-content-right-list2-item1-img"
+                                 />
+                                 <div
+                                    class="container_news-content-right-list2-item1-text"
+                                 >
+                                    <h3
+                                       class="container_news-content-right-list2-item1-text-content"
+                                    >
+                                       <a
+                                          href="#"
+                                          class="container_news-content-right-list2-item1-text-content-link"
+                                          >Jun Phạm phát hành tiểu thuyết dành
+                                          cho thiếu nhi</a
+                                       >
+                                    </h3>
+                                    <p
+                                       class="container_news-content-right-list2-item1-text-content1"
+                                    >
+                                       Xứ Sở Miên Man là tác phẩm tiếp theo của
+                                       Jun Phạm sau MV "1900...
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div
+                                 class="container_news-content-right-list2-item1"
+                              >
+                                 <img
+                                    src="//bizweb.dktcdn.net/thumb/large/100/465/223/articles/i-love-cookbook-gioi-thieu-bep-nha-nam-khong-co-lo-cua-nam-co-ich-01072023-04.jpg?v=1688439096367"
+                                    alt=""
+                                    class="container_news-content-right-list2-item1-img"
+                                 />
+                                 <div
+                                    class="container_news-content-right-list2-item1-text"
+                                 >
+                                    <h3
+                                       class="container_news-content-right-list2-item1-text-content"
+                                    >
+                                       <a
+                                          href="#"
+                                          class="container_news-content-right-list2-item1-text-content-link"
+                                          >MC Đại Nghĩa đồng cảm với tác giả
+                                          Giác Minh Luật dặn bạn trẻ biết thương
+                                          mình</a
+                                       >
+                                    </h3>
+                                    <p
+                                       class="container_news-content-right-list2-item1-text-content1"
+                                    >
+                                       Nhà sư Giác Minh Luật, một gương mặt nổi
+                                       tiếng trên mạng xã hộ...
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div
+                                 class="container_news-content-right-list2-item1"
+                              >
+                                 <img
+                                    src="//bizweb.dktcdn.net/thumb/large/100/465/223/articles/quote-5-up-full-man-hinh-85.png?v=1684114844490"
+                                    alt=""
+                                    class="container_news-content-right-list2-item1-img"
+                                 />
+                                 <div
+                                    class="container_news-content-right-list2-item1-text"
+                                 >
+                                    <h3
+                                       class="container_news-content-right-list2-item1-text-content"
+                                    >
+                                       <a
+                                          href="#"
+                                          class="container_news-content-right-list2-item1-text-content-link"
+                                          >I love cookbook giới thiệu “Bếp Nhà
+                                          Nam Không Có Lò” của Nam Có Ích</a
+                                       >
+                                    </h3>
+                                    <p
+                                       class="container_news-content-right-list2-item1-text-content1"
+                                    >
+                                       I Love Cookbook – thương hiệu sách ẩm
+                                       thực cao cấp đầu tiên và...
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div
+                                 class="container_news-content-right-list2-item1"
+                              >
+                                 <img
+                                    src="//bizweb.dktcdn.net/thumb/large/100/465/223/articles/h1-2-1533.jpg?v=1683597325787"
+                                    alt=""
+                                    class="container_news-content-right-list2-item1-img"
+                                 />
+                                 <div
+                                    class="container_news-content-right-list2-item1-text"
+                                 >
+                                    <h3
+                                       class="container_news-content-right-list2-item1-text-content"
+                                    >
+                                       <a
+                                          href="#"
+                                          class="container_news-content-right-list2-item1-text-content-link"
+                                          >Nhà sư triệu view Giác Minh Luật nói
+                                          về tình yêu và sự cô đơn</a
+                                       >
+                                    </h3>
+                                    <p
+                                       class="container_news-content-right-list2-item1-text-content1"
+                                    >
+                                       Sư Giác Minh Luật là vị sư trẻ (sinh năm
+                                       1992), tác giả của n...
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div
+                                 class="container_news-content-right-list2-item1"
+                              >
+                                 <img
+                                    src="//bizweb.dktcdn.net/thumb/large/100/465/223/articles/h1-3-1533.jpg?v=1683539466233"
+                                    alt=""
+                                    class="container_news-content-right-list2-item1-img"
+                                 />
+                                 <div
+                                    class="container_news-content-right-list2-item1-text"
+                                 >
+                                    <h3
+                                       class="container_news-content-right-list2-item1-text-content"
+                                    >
+                                       <a
+                                          href="#"
+                                          class="container_news-content-right-list2-item1-text-content-link"
+                                          >Nhà sư có kênh TikTok triệu view ra
+                                          mắt sách “Vẻ đẹp của sự cô đơn”</a
+                                       >
+                                    </h3>
+                                    <p
+                                       class="container_news-content-right-list2-item1-text-content1"
+                                    >
+                                       Cuốn sách dày 224 trang, in bìa cứng,
+                                       được SkyBooks và Nxb Phụ...
+                                    </p>
+                                 </div>
+                              </div>
+                           </div>
+                           <div class="col-lg-6">
+                              <div class="nav_newpage">
+                                 <div class="nav_newpage-contact">
+                                    <ul class="nav_newpage-contact-list">
+                                       <li
+                                          class="nav_newpage-contact-list-item1"
+                                       >
+                                          1
+                                       </li>
+                                       <li
+                                          class="nav_newpage-contact-list-item"
+                                       >
+                                          <a
+                                             href="news_2.html"
+                                             class="nav_newpage-contact-list-item-link"
+                                             >2</a
+                                          >
+                                       </li>
+                                       <!-- <li class="nav_newpage-contact-list-item">
+                                                    <a href="skynovel_3.html" class="nav_newpage-contact-list-item-link">3</a>
+                                                </li> -->
+                                       <!-- <li class="nav_newpage-contact-list-item">
+                                                    <a href="skybooks_4.html" class="nav_newpage-contact-list-item-link">4</a>
+                                                </li>
+                                                <li class="nav_newpage-contact-list-item">
+                                                    <a href="skybooks_5.html" class="nav_newpage-contact-list-item-link">5</a>
+                                                </li>
+                                                <li class="nav_newpage-contact-list-item">
+                                                    <a href="skybooks_6.html" class="nav_newpage-contact-list-item-link">6</a>
+                                                </li> -->
+                                       <!-- <li class="nav_newpage-contact-list-item">
+                                                    <a href="news_2.html" class="nav_newpage-contact-list-item-link">
+                                                        <i id="next_page" class="fas fa-angle-right"></i>
+                                                    </a>
+                                                </li> -->
+                                    </ul>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-12">
+                        <div class="container_news-content-left">
+                           <div class="container_news-content-left-conten1">
+                              <h3
+                                 class="container_news-content-left-conten1-title"
+                              >
+                                 Danh Mục
+                              </h3>
+                              <div class="border1"></div>
+                              <ul
+                                 class="container_news-content-left-conten1-list"
+                              >
+                                 <li
+                                    class="container_news-content-left-conten1-list-item"
+                                 >
+                                    <i
+                                       class="fa-solid fa-greater-than"
+                                       style="color: #38a8ea; font-size: 15px"
+                                    ></i>
+                                    <a
+                                       href="#"
+                                       class="container_news-content-left-conten1-list-item-link"
+                                       >Skybooks</a
+                                    >
+                                 </li>
+                                 <li
+                                    class="container_news-content-left-conten1-list-item"
+                                 >
+                                    <i
+                                       class="fa-solid fa-greater-than"
+                                       style="color: #38a8ea; font-size: 15px"
+                                    ></i>
+                                    <a
+                                       href="#"
+                                       class="container_news-content-left-conten1-list-item-link"
+                                       >Skynovel</a
+                                    >
+                                 </li>
+                                 <li
+                                    class="container_news-content-left-conten1-list-item"
+                                 >
+                                    <i
+                                       class="fa-solid fa-greater-than"
+                                       style="color: #38a8ea; font-size: 15px"
+                                    ></i>
+                                    <a
+                                       href="#"
+                                       class="container_news-content-left-conten1-list-item-link"
+                                       >Skycomics</a
+                                    >
+                                 </li>
+                                 <li
+                                    class="container_news-content-left-conten1-list-item"
+                                 >
+                                    <i
+                                       class="fa-solid fa-greater-than"
+                                       style="color: #38a8ea; font-size: 15px"
+                                    ></i>
+                                    <a
+                                       href="#"
+                                       class="container_news-content-left-conten1-list-item-link"
+                                       >Skymommy</a
+                                    >
+                                 </li>
+                                 <li
+                                    class="container_news-content-left-conten1-list-item"
+                                 >
+                                    <i
+                                       class="fa-solid fa-greater-than"
+                                       style="color: #38a8ea; font-size: 15px"
+                                    ></i>
+                                    <a
+                                       href="#"
+                                       class="container_news-content-left-conten1-list-item-link"
+                                       >Sky Special</a
+                                    >
+                                 </li>
+                                 <li
+                                    class="container_news-content-left-conten1-list-item"
+                                 >
+                                    <i
+                                       class="fa-solid fa-greater-than"
+                                       style="color: #38a8ea; font-size: 15px"
+                                    ></i>
+                                    <a
+                                       href="#"
+                                       class="container_news-content-left-conten1-list-item-link"
+                                       >Tủ sách chữa lành</a
+                                    >
+                                 </li>
+                                 <li
+                                    class="container_news-content-left-conten1-list-item"
+                                 >
+                                    <i
+                                       class="fa-solid fa-greater-than"
+                                       style="color: #38a8ea; font-size: 15px"
+                                    ></i>
+                                    <a
+                                       href="#"
+                                       class="container_news-content-left-conten1-list-item-link"
+                                       >Tủ sách quý cô</a
+                                    >
+                                 </li>
+                                 <li
+                                    class="container_news-content-left-conten1-list-item"
+                                 >
+                                    <i
+                                       class="fa-solid fa-greater-than"
+                                       style="color: #38a8ea; font-size: 15px"
+                                    ></i>
+                                    <a
+                                       href="#"
+                                       class="container_news-content-left-conten1-list-item-link"
+                                       >Sống khác</a
+                                    >
+                                 </li>
+                                 <li
+                                    class="container_news-content-left-conten1-list-item"
+                                 >
+                                    <i
+                                       class="fa-solid fa-greater-than"
+                                       style="color: #38a8ea; font-size: 15px"
+                                    ></i>
+                                    <a
+                                       href="#"
+                                       class="container_news-content-left-conten1-list-item-link"
+                                       >Deepbooks</a
+                                    >
+                                 </li>
+                                 <li
+                                    class="container_news-content-left-conten1-list-item"
+                                 >
+                                    <i
+                                       class="fa-solid fa-greater-than"
+                                       style="color: #38a8ea; font-size: 15px"
+                                    ></i>
+                                    <a
+                                       href="#"
+                                       class="container_news-content-left-conten1-list-item-link"
+                                       >Trạm hướng nghiệp</a
+                                    >
+                                 </li>
+                                 <li
+                                    class="container_news-content-left-conten1-list-item"
+                                 >
+                                    <i
+                                       class="fa-solid fa-greater-than"
+                                       style="color: #38a8ea; font-size: 15px"
+                                    ></i>
+                                    <a
+                                       href="#"
+                                       class="container_news-content-left-conten1-list-item-link"
+                                       >I love cookbook</a
+                                    >
+                                 </li>
+                                 <li
+                                    class="container_news-content-left-conten1-list-item"
+                                 >
+                                    <i
+                                       class="fa-solid fa-greater-than"
+                                       style="color: #38a8ea; font-size: 15px"
+                                    ></i>
+                                    <a
+                                       href="#"
+                                       class="container_news-content-left-conten1-list-item-link"
+                                       >Glow Books</a
+                                    >
+                                 </li>
+                              </ul>
+                           </div>
+                           <div class="container_news-content-left-conten2">
+                              <h3
+                                 class="container_news-content-left-conten1-title"
+                              >
+                                 Về Chúng Tôi
+                              </h3>
+                              <div class="border2"></div>
+                              <img
+                                 src="//bizweb.dktcdn.net/100/465/223/themes/877050/assets/banner_about.jpg?1702870866853"
+                                 alt=""
+                                 class="container_news-content-left-conten2-img"
+                              />
+                              <p
+                                 class="container_news-content-left-conten2-text"
+                              >
+                                 Skybooks - thương hiệu sách dành cho những
+                                 người viết trẻ, đam mê văn chương, tôn trọng,
+                                 gìn giữ, sáng tạo Tiếng Việt. Dành cho một thế
+                                 hệ độc giả trẻ, đam mê khám phá ngôn ngữ, say
+                                 mê đến với thế giới của những quyển sách. Và là
+                                 một thế hệ những người làm sách trẻ, đam mê
+                                 mang đến những giá trị tinh thần cho bạn đọc,
+                                 lan toả cảm xúc và kết nối tâm hồn.
+                              </p>
+                              <button class="read">Đọc Tiếp</button>
+                           </div>
+                           <div class="container_news-content-left-conten3">
+                              <h3
+                                 class="container_news-content-left-conten1-title"
+                              >
+                                 Hình Ảnh SkyBooks
+                              </h3>
+                              <div class="border3"></div>
+                              <div
+                                 class="container_news-content-left-conten3-list"
+                              >
+                                 <div
+                                    class="container_news-content-left-conten3-list1"
+                                 >
+                                    <div
+                                       class="container_news-content-left-conten3-list1-content"
+                                    >
+                                       <img
+                                          src="//bizweb.dktcdn.net/thumb/large/100/465/223/themes/877050/assets/pictureblog_1.jpg?1702870866853"
+                                          alt=""
+                                          class="container_news-content-left-conten3-list-img"
+                                       />
+                                    </div>
+                                    <div
+                                       class="container_news-content-left-conten3-list1-content"
+                                    >
+                                       <img
+                                          src="//bizweb.dktcdn.net/thumb/large/100/465/223/themes/877050/assets/pictureblog_2.jpg?1702870866853"
+                                          alt=""
+                                          class="container_news-content-left-conten3-list-img"
+                                       />
+                                    </div>
+                                    <div
+                                       class="container_news-content-left-conten3-list1-content"
+                                    >
+                                       <img
+                                          src="//bizweb.dktcdn.net/thumb/large/100/465/223/themes/877050/assets/pictureblog_3.jpg?1702870866853"
+                                          alt=""
+                                          class="container_news-content-left-conten3-list-img"
+                                       />
+                                    </div>
+                                 </div>
+                                 <div
+                                    class="container_news-content-left-conten3-list1"
+                                 >
+                                    <div
+                                       class="container_news-content-left-conten3-list1-content"
+                                    >
+                                       <img
+                                          src="//bizweb.dktcdn.net/thumb/large/100/465/223/themes/877050/assets/pictureblog_4.jpg?1702870866853"
+                                          alt=""
+                                          class="container_news-content-left-conten3-list-img"
+                                       />
+                                    </div>
+                                    <div
+                                       class="container_news-content-left-conten3-list1-content"
+                                    >
+                                       <img
+                                          src="//bizweb.dktcdn.net/thumb/large/100/465/223/themes/877050/assets/pictureblog_4.jpg?1702870866853"
+                                          alt=""
+                                          class="container_news-content-left-conten3-list-img"
+                                       />
+                                    </div>
+                                    <div
+                                       class="container_news-content-left-conten3-list1-content"
+                                    >
+                                       <img
+                                          src="//bizweb.dktcdn.net/thumb/large/100/465/223/themes/877050/assets/pictureblog_6.jpg?1702870866853"
+                                          alt=""
+                                          class="container_news-content-left-conten3-list-img"
+                                       />
+                                    </div>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="footer">
+            <div class="footer_header">
+               <div class="container">
+                  <div class="row">
+                     <div class="col-lg-4 col-md-12 col-12">
+                        <div class="footer_header-list">
+                           <div class="footer_header-list-logo">
+                              <img
+                                 src="//bizweb.dktcdn.net/100/465/223/themes/877050/assets/logo_footer.png?1700471616039"
+                                 alt="Logo"
+                                 class="footer_header-list-logo-img"
+                              />
+                           </div>
+                           <p class="footer_header-list-text">
+                              Skybooks - thương hiệu sách dành cho những người
+                              viết trẻ, đam mê văn chương, tôn trọng, gìn giữ,
+                              sáng tạo Tiếng Việt. Dành cho một thế hệ độc giả
+                              trẻ, đam mê khám phá ngôn ngữ, say mê đến với thế
+                              giới của những quyển sách. Và là một thế hệ những
+                              người làm sách trẻ, đam mê mang đến những giá trị
+                              tinh thần cho bạn đọc, lan toả cảm xúc và kết nối
+                              tâm hồn.
+                           </p>
+                           <div class="footer_header-list-icon">
+                              <a href="" class="footer_header-list-icon-link">
+                                 <i class="fab fa-facebook-f"></i>
+                              </a>
+                              <a href="" class="footer_header-list-icon-link">
+                                 <i class="fab fa-youtube"></i>
+                              </a>
+                              <a href="" class="footer_header-list-icon-link">
+                                 <img
+                                    src="//bizweb.dktcdn.net/100/465/223/themes/877050/assets/shopee.png?1700471616039"
+                                    alt="shopee"
+                                 />
+                              </a>
+                              <a href="" class="footer_header-list-icon-link">
+                                 <img
+                                    src="//bizweb.dktcdn.net/100/465/223/themes/877050/assets/instagram.png?1700471616039"
+                                    alt="instagram"
+                                 />
+                              </a>
+                              <a href="" class="footer_header-list-icon-link">
+                                 <img
+                                    src="//bizweb.dktcdn.net/100/465/223/themes/877050/assets/tiktok.png?1700471616039"
+                                    alt="instagram"
+                                 />
+                              </a>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6 col-12">
+                        <div class="footer_header-list footer_header-list2">
+                           <p class="footer_header-list-text2">
+                              LIÊN HỆ VỚI CHÚNG TÔI
+                           </p>
+                           <div class="footer_header-list-address">
+                              <i class="fas fa-map-marker-alt"></i>
+                              <span class="footer_header-list-address-span"
+                                 >Địa chỉ: Số 83 Lý Nam Đế, Phường Cửa Đông,
+                                 Quận Hoàn Kiếm, Hà Nội</span
+                              >
+                           </div>
+                           <div class="footer_header-list-hotline">
+                              <i class="fas fa-phone"></i>
+                              <span class="footer_header-list-address-span">
+                                 Hotline kinh doanh:
+                                 <a
+                                    href=""
+                                    class="footer_header-list-address-span-phone"
+                                    >0867670644</a
+                                 >
+                              </span>
+                              <br />
+                              <span
+                                 class="footer_header-list-address-span footer_header-list-address-span1"
+                              >
+                                 Hotline giao hàng:
+                                 <a
+                                    href=""
+                                    class="footer_header-list-address-span-phone"
+                                    >0799119517</a
+                                 >
+                              </span>
+                           </div>
+                        </div>
+                     </div>
+                     <div class="col-lg-4 col-md-6 col-12">
+                        <div class="footer_header-list footer_header-list3">
+                           <p class="footer_header-list-text2">
+                              ĐĂNG KÝ NHẬN KHUYẾN MÃI
+                           </p>
+                           <div class="footer_header-list-address">
+                              <span class="footer_header-list-address-span"
+                                 >Đừng bỏ lỡ những sản phẩm và chương trình
+                                 khuyến mãi hấp dẫn</span
+                              >
+                           </div>
+                           <div class="footer-input-group">
+                              <input
+                                 aria-label="Địa chỉ Email"
+                                 type="email"
+                                 class=""
+                                 placeholder="Email của bạn"
+                                 name="EMAIL"
+                                 required=""
+                                 autocomplete="off"
+                              />
+                              <button
+                                 class="btn btn-default"
+                                 type="submit"
+                                 aria-label="Đăng ký nhận tin"
+                                 name="subscribe"
+                              >
+                                 Đăng ký
+                              </button>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+
+            <div class="footer_border"></div>
+
+            <div class="footer_copyright">
+               <div id="copyright" class="col-lg-12 a-center fot_copyright">
+                  <span class="wsp">
+                     <span class="mobile"
+                        >© Bản quyền thuộc về
+                        <b
+                           >Công ty TNHH văn hóa &amp; truyền thông Skybooks
+                           Việt Nam</b
+                        >
+                        <span class="dash hidden-sm hidden-xs">|</span>
+                     </span>
+
+                     <span class="opacity1">Cung cấp bởi</span>
+
+                     <a
+                        style="color: #38a8ea"
+                        id="sapo"
+                        href="https://www.sapo.vn/?utm_campaign=cpn:site_khach_hang-plm:footer&amp;utm_source=site_khach_hang&amp;utm_medium=referral&amp;utm_content=fm:text_link-km:-sz:&amp;utm_term=&amp;campaign=site_khach_hang"
+                        rel="nofollow"
+                        title="Sapo"
+                        target="_blank"
+                        >Sapo</a
+                     >
+                  </span>
+               </div>
+            </div>
+
+            <a
+               href="tel:0867670644"
+               class="suntory-alo-phone suntory-alo-green"
+               id="suntory-alo-phoneIcon"
+               style="left: 0px; bottom: 0px"
+            >
+               <div class="suntory-alo-ph-circle"></div>
+               <div class="suntory-alo-ph-circle-fill"></div>
+               <div class="suntory-alo-ph-img-circle">
+                  <i class="fa fa-phone"></i>
+               </div>
+            </a>
+         </div>
+      </div>
+
+      <script src="assets/bootstrap-5.0.2-dist/js_bootstrap/bootstrap.min.js"></script>
+   </body>
+</html>

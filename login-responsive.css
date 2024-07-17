@@ -1,0 +1,10 @@
+@media (min-width: 767px) and (max-width: 991px) {
+    .form_loginacc-section {
+        width: 60% !important;
+    }
+}
+@media (max-width: 766px) {
+    .form_loginacc-section {
+        width: 80% !important;
+    }
+}

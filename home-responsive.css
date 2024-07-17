@@ -1,0 +1,29 @@
+@media (max-width: 991px) {
+    .srcoll-view {
+        overflow-x: auto !important;
+    }
+    .section-row {
+        justify-content: flex-start !important;
+        flex-wrap: nowrap !important;
+
+    }
+}
+@media (min-width: 823px) and (max-width: 1199px) {
+    .trademark-display-md {
+        display: block !important;
+    }
+    .trademark-display-lg {
+        display: none !important;
+    }
+}
+@media (max-width: 822px) {
+    .trademark-srcollview {
+        display: flex;
+        overflow-x: auto;
+    }
+}
+/* @media (max-width: 455px) {
+    .row-search {
+        margin-top: 20px !important;
+    }
+} */
